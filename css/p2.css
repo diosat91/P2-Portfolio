@@ -1,16 +1,16 @@
 html {
-	font-family: 'Roboto', thin;
+	font-family: "Roboto", thin;
   	font-weight: 100;
 }
 
 .row {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 header {
 	border-style: solid;
-	border-width: 0px 0px 5px 0px;
-	border-color: #BCBBBB;
+	border-width: 0 0 5px 0;
+	border-color: #bcbbbb;
 }
 
 h1 {
@@ -56,7 +56,7 @@ a {
 
 .mylogo {
 	width: 50%;
-	padding: 20px 0px;
+	padding: 20px 0;
 }
 
 .yayoi {
@@ -69,14 +69,14 @@ p {
 }
 
 @media only screen and (max-width : 600px) {
-    .yayoi {
-    display: none;
-  }
+	.yayoi {
+		padding-top: 10px;
+	}
   	.featured {
   		text-align: center;
   	}
   	.center {
-  		padding: 0px;
+  		padding: 0;
   		margin: 8px;
   	}
   	h1 {
@@ -88,7 +88,6 @@ p {
 	.container {
 		margin: 10px;
 		width: 98%;
-		float: center;
 	}
 }
 
