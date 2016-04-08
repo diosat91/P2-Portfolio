@@ -1,6 +1,6 @@
 html {
 	font-family: "Roboto", thin;
-  	font-weight: 100;
+	font-weight: 100;
 }
 
 .row {
@@ -72,16 +72,18 @@ p {
 	.yayoi {
 		padding-top: 10px;
 	}
-  	.featured {
-  		text-align: center;
-  	}
-  	.center {
-  		padding: 0;
-  		margin: 8px;
-  	}
-  	h1 {
-  		margin-bottom: -5px;
-  	}
+	.featured {
+		text-align: center;
+	}
+	.center {
+		padding: 0;
+		margin: 8px;
+	}
+}
+
+h1 {
+margin-bottom: -5px;
+}
 }
 
 @media only screen and (min-width: 601px) and (max-width : 1000px) {
@@ -90,7 +92,3 @@ p {
 		width: 98%;
 	}
 }
-
-
-
-
